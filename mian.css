@@ -1,0 +1,31 @@
+.main
+{
+    display: flex;
+    flex-direction: row;
+}
+nav
+{
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.czarny
+{
+    height: 100vh;
+    width: 70vw;
+}
+.navElement
+{
+    border: 2px solid black;
+}
+.czarny
+{
+    background-color: beige;
+}
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+

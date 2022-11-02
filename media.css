@@ -1,0 +1,32 @@
+@media  (max-width: 500px)
+{
+    .main{
+        flex-direction: column;
+        height: 5vh;
+    }
+    nav{
+        flex-direction: row;
+        width: 100vw;
+        
+    }
+    .navElement
+    {
+        width: 25vw;
+    }
+    
+}
+
+@media  (max-width: 400px)
+{
+    .main{
+        flex-direction: column;
+        height: 10vh;
+       
+    }
+    nav{
+        flex-direction: column;
+        width: 100vw;
+        
+    }
+    
+}
